@@ -1,0 +1,1 @@
+<footer id="bjui-footer">Powered By <a href="http://www.topstack.cn" target="_blank">小策一喋</a> Copyright &copy; 2014</footer>

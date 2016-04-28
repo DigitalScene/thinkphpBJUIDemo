@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name=keywords content="{$channelDetail.keywords}"></meta>
+        <meta name=description content="{$channelDetail.description}"></meta>
+        <include file="Common:intoHead" />
+        <title>{$channelDetail.name} - {:C('siteName')}</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <include file="Common:header" />
+
+            <div class="small-pic"><img src="__TMPL__Public/Img/smallpic.png" /></div>
+            <div class="main clearfix">
+
+                <div class="content">
+                    <div class="position"><span>当前位置：</span><a href="{$siteConfig.WEB_ROOT}">首页</a> &gt;{$channelDetail.name}</div>
+                    <div class="list-cnt">
+                        <div class="list-bd">
+                            <ul class="product-list">
+                                <volist name="articleList" id="articleList_vo">
+                                    <li class="clearfix">
+                                        <h3><a class="title" title="{$articleList_vo.title}" href="__URL__/articleDetail/code/<?php echo $_GET[code];?>/id/{$articleList_vo.id}">{$articleList_vo.title}</a></h3>
+                                        <div class="img"><a href="__URL__/articleDetail/code/<?php echo $_GET[code];?>/id/{$articleList_vo.id}"><img src="{$articleList_vo.thumbnail}"></a></div>
+                                        <div class="list-text">
+                                            <div class="piclist-info">
+                                                <p>{$articleList_vo.summary}</p>
+                                            </div><a title="查看详情" class="btn" href="/Product/detail/id/{$articleList_vo.id}"></a></div>
+                                    </li>
+                                </volist>
+                            </ul>
+                            <div class="pages">
+                                <span id="pe100_page_通用信息列表_列表页" class="pagecss">
+                                    <!--{pe.begin.pagination}-->
+                                    {$page}
+                                    <!--{pe.end.pagination}-->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <a title="返回顶部" class="top" href="#header"></a>
+                </div>
+
+                <include file="Common:leftMenu" />
+
+            </div>
+
+            <include file="Common:footer" />
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,6 @@
+[ 2016-04-18T14:21:12+08:00 ] ::1 /?m=index&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Index
+

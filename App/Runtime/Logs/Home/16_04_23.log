@@ -1,0 +1,143 @@
+[ 2016-04-23T23:48:20+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `ec_channel` [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `ec_channel` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: field D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 206 行.
+SQL: SELECT * FROM `ec_channel` WHERE `cid` = 0 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::add() should be compatible with that of Think\Model::add() D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php 第 403 行.
+SQL: SHOW COLUMNS FROM `ec_article` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `ec_article` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ec_article` WHERE `thumbnail` <> '' ORDER BY uTime DESC LIMIT 6   [ RunTime:0.0162s ]
+NOTIC: [8] Undefined index: limit D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 49 行.
+SQL: SELECT * FROM `ec_channel` WHERE `fid` = 0 AND `model` = 'article' AND `status` = 1 ORDER BY oid ASC  [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: limit D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 49 行.
+SQL: SELECT * FROM `ec_channel` WHERE `status` = 1 ORDER BY oid ASC  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ec_article` WHERE `cid` IN ('7','9','11','12','2') ORDER BY uTime DESC LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ec_article` WHERE `cid` IN ('13','14','10','8','3') ORDER BY uTime DESC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ec_article` WHERE `cid` IN ('15','16','17','18','19','4') ORDER BY uTime DESC LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ec_article` WHERE `cid` IN ('5') ORDER BY uTime DESC LIMIT 5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Template\TagLib\Co.class.php 第 25 行.
+NOTIC: [8] Undefined variable: condition D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Template\TagLib\Co.class.php 第 33 行.
+NOTIC: [8] Undefined variable: condition D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Template\TagLib\Co.class.php 第 37 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: articleDetail D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7d05afc94b7e80187b9ee3b1e5ead12f.php 第 7 行.
+NOTIC: [8] Undefined variable: articleDetail D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7d05afc94b7e80187b9ee3b1e5ead12f.php 第 8 行.
+NOTIC: [8] Undefined index: limit D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 49 行.
+SQL: SELECT * FROM `ec_channel` WHERE `status` = 1 ORDER BY oid ASC  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.068458s ]
+NOTIC: [8] Undefined offset: 0 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 2 行.
+NOTIC: [8] Undefined index: cid D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 12 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 12 行.
+NOTIC: [8] Undefined index: cid D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 12 行.
+NOTIC: [8] Undefined offset: 0 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 2 行.
+NOTIC: [8] Undefined index: cid D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 12 行.
+NOTIC: [8] Undefined offset: 0 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 2 行.
+NOTIC: [8] Undefined index: cid D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7b169ff0a26597695e982177a7224108.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined offset: 12 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 13 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 14 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 15 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 16 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 17 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 18 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 19 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 20 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 21 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 22 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 23 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 24 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 25 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 26 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 27 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 17 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 18 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 19 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 20 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 21 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 22 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 23 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 24 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 25 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 26 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 27 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 14 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 15 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 16 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 17 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 18 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 19 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 20 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 21 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 22 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 23 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 24 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 25 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 26 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 27 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 15 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 16 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 17 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 18 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 19 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 20 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 21 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 22 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 23 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 24 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 25 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 26 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 27 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 12 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 13 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 14 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 15 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 16 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 17 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 18 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 19 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 20 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 21 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 22 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 23 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 24 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 25 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 26 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined offset: 27 D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Common\function.php 第 199 行.
+NOTIC: [8] Undefined index: kw D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7d05afc94b7e80187b9ee3b1e5ead12f.php 第 102 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7d05afc94b7e80187b9ee3b1e5ead12f.php on line 113 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1771 行.
+NOTIC: [8] Undefined variable: where D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1779 行.
+NOTIC: [8] Undefined variable: where D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1782 行.
+NOTIC: [8] Undefined variable: where D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1790 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7d05afc94b7e80187b9ee3b1e5ead12f.php on line 113 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1771 行.
+NOTIC: [8] Undefined variable: where D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1779 行.
+NOTIC: [8] Undefined variable: where D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1782 行.
+NOTIC: [8] Undefined variable: where D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Think\Model.class.php 第 1790 行.
+SQL: SELECT `id`,`cid`,`title` FROM `ec_article` ORDER BY visitNums DESC LIMIT 0,15   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: channelList D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Home\7d05afc94b7e80187b9ee3b1e5ead12f.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+

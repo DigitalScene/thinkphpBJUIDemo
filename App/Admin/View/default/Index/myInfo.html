@@ -1,0 +1,58 @@
+<div class="bjui-pageContent">
+    <div data-layout-h="0">
+        <!-- 内容区 -->
+        <form action="" method="post">
+            <input name="username" type="hidden" value="{$myInfo.username}" />
+            <table class="table table-hover">
+                <tr>
+                    <th width="120">当前账号：</th>
+                    <td>
+                        <input disabled="disabled" name="email" type="text" class="form-control input-sm" value="{$myInfo.username}" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>现密码：</th>
+                    <td>
+                        <input class="form-control input-sm" name="pwd0" type="password" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>新密码：</th>
+                    <td>
+                        <input class="form-control input-sm" name="pwd" type="password" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>确认密码：</th>
+                    <td>
+                        <input class="form-control input-sm" name="pwd1" type="password" value="" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="bjui-footBar">
+        <!-- 底部工具条  -->
+        <ul>
+            <li><button type="button" class="btn-close">关闭</button></li>
+            <li><button type="submit" class="btn-default">保存</button></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(".submit").click(function() {
+        if ($.trim($("input[name='pwd0']").val()) == '') {
+            popup.alert("旧密码不能为空");
+            return false;
+        }
+        if ($.trim($("input[name='pwd']").val()) == '') {
+            popup.alert("新密码不能为空");
+            return false;
+        }
+        if ($.trim($("input[name='pwd1']").val()) == '') {
+            popup.alert("请再次输入确认你的密码");
+            return false;
+        }
+        ajaxSubmit();
+    });
+</script>

@@ -1,0 +1,781 @@
+[ 2016-04-18T14:21:36+08:00 ] ::1 /?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-04-18T14:21:36+08:00 ] ::1 /index.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2016-04-18T14:21:36+08:00 ] ::1 /index.php?m=Admin&c=Public&a=verify_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-04-18T14:22:03+08:00 ] ::1 /index.php?m=Admin&c=Public&a=verify_code&rand=0.1684747451563977
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-04-18T14:22:10+08:00 ] ::1 /index.php?m=Admin&c=Public&a=verify_code&rand=0.6068327418409007
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-04-18T14:22:11+08:00 ] ::1 /index.php?m=Admin&c=Public&a=verify_code&rand=0.050354416075312436
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2016-04-18T14:22:16+08:00 ] ::1 /index.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0529s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\PublicModel::auth(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\PublicController.class.php on line 48 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\PublicModel.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_user` WHERE ( `username`='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ec_user` WHERE ( `username`='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: infoList D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\PublicModel.class.php 第 30 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\PublicModel.class.php 第 30 行.
+NOTIC: [8] Undefined index: op_type D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\PublicModel.class.php 第 36 行.
+NOTIC: [8] Undefined index: status D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\PublicController.class.php 第 50 行.
+
+[ 2016-04-18T14:22:17+08:00 ] ::1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+NOTIC: [2048] Non-static method Common\Model\CommonModel::leftMenu() should not be called statically, assuming $this from incompatible context D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ec_leftmenu` [ RunTime:0.0506s ]
+SQL: SELECT `id`,`level`,`name` FROM `ec_leftmenu` WHERE `pid` = 0 AND `status` = 1 ORDER BY oid ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '2' AND `level` = 2 ORDER BY oid ASC  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '10' AND `level` = 10 ORDER BY oid ASC  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '12' AND `level` = 12 ORDER BY oid ASC  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '3' AND `level` = 3 ORDER BY oid ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2016-04-18T14:22:19+08:00 ] ::1 /index.php?m=Admin&c=Index&a=barChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Use of undefined constant tooltip - assumed 'tooltip' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant trigger - assumed 'trigger' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant legend - assumed 'legend' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Use of undefined constant toolbox - assumed 'toolbox' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant feature - assumed 'feature' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant mark - assumed 'mark' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant dataView - assumed 'dataView' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant readOnly - assumed 'readOnly' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant magicType - assumed 'magicType' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant restore - assumed 'restore' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant saveAsImage - assumed 'saveAsImage' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant calculable - assumed 'calculable' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant xAxis - assumed 'xAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant yAxis - assumed 'yAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant series - assumed 'series' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 113 行.
+
+[ 2016-04-18T14:22:19+08:00 ] ::1 /index.php?m=Admin&c=Index&a=lineChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Use of undefined constant tooltip - assumed 'tooltip' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant trigger - assumed 'trigger' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant legend - assumed 'legend' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 129 行.
+NOTIC: [8] Use of undefined constant toolbox - assumed 'toolbox' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 131 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Use of undefined constant feature - assumed 'feature' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Use of undefined constant mark - assumed 'mark' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Use of undefined constant dataView - assumed 'dataView' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant readOnly - assumed 'readOnly' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant magicType - assumed 'magicType' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant restore - assumed 'restore' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant saveAsImage - assumed 'saveAsImage' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant calculable - assumed 'calculable' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant xAxis - assumed 'xAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant boundaryGap - assumed 'boundaryGap' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 145 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 146 行.
+NOTIC: [8] Use of undefined constant yAxis - assumed 'yAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant axisLabel - assumed 'axisLabel' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant formatter - assumed 'formatter' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 153 行.
+NOTIC: [8] Use of undefined constant series - assumed 'series' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 157 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 163 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 168 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 169 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 175 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 177 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 178 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 179 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 186 行.
+
+[ 2016-04-18T14:22:32+08:00 ] ::1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2048] Non-static method Common\Model\CommonModel::leftMenu() should not be called statically, assuming $this from incompatible context D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ec_leftmenu` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`level`,`name` FROM `ec_leftmenu` WHERE `pid` = 0 AND `status` = 1 ORDER BY oid ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '2' AND `level` = 2 ORDER BY oid ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '10' AND `level` = 10 ORDER BY oid ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '12' AND `level` = 12 ORDER BY oid ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '3' AND `level` = 3 ORDER BY oid ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-04-18T14:22:33+08:00 ] ::1 /index.php?m=Admin&c=Index&a=lineChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [8] Use of undefined constant tooltip - assumed 'tooltip' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant trigger - assumed 'trigger' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant legend - assumed 'legend' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 129 行.
+NOTIC: [8] Use of undefined constant toolbox - assumed 'toolbox' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 131 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Use of undefined constant feature - assumed 'feature' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Use of undefined constant mark - assumed 'mark' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Use of undefined constant dataView - assumed 'dataView' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant readOnly - assumed 'readOnly' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant magicType - assumed 'magicType' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant restore - assumed 'restore' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant saveAsImage - assumed 'saveAsImage' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant calculable - assumed 'calculable' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant xAxis - assumed 'xAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant boundaryGap - assumed 'boundaryGap' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 145 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 146 行.
+NOTIC: [8] Use of undefined constant yAxis - assumed 'yAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant axisLabel - assumed 'axisLabel' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant formatter - assumed 'formatter' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 153 行.
+NOTIC: [8] Use of undefined constant series - assumed 'series' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 157 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 163 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 168 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 169 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 175 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 177 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 178 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 179 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 186 行.
+
+[ 2016-04-18T14:22:33+08:00 ] ::1 /index.php?m=Admin&c=Index&a=barChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [8] Use of undefined constant tooltip - assumed 'tooltip' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant trigger - assumed 'trigger' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant legend - assumed 'legend' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Use of undefined constant toolbox - assumed 'toolbox' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant feature - assumed 'feature' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant mark - assumed 'mark' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant dataView - assumed 'dataView' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant readOnly - assumed 'readOnly' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant magicType - assumed 'magicType' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant restore - assumed 'restore' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant saveAsImage - assumed 'saveAsImage' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant calculable - assumed 'calculable' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant xAxis - assumed 'xAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant yAxis - assumed 'yAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant series - assumed 'series' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 113 行.
+
+[ 2016-04-18T14:22:39+08:00 ] ::1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2048] Non-static method Common\Model\CommonModel::leftMenu() should not be called statically, assuming $this from incompatible context D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ec_leftmenu` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`level`,`name` FROM `ec_leftmenu` WHERE `pid` = 0 AND `status` = 1 ORDER BY oid ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '2' AND `level` = 2 ORDER BY oid ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '10' AND `level` = 10 ORDER BY oid ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '12' AND `level` = 12 ORDER BY oid ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ec_leftmenu` WHERE `status` = 1 AND `id` <> '3' AND `level` = 3 ORDER BY oid ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\220f72f7e6ae0a9673378392936f2785.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-04-18T14:22:40+08:00 ] ::1 /index.php?m=Admin&c=Index&a=lineChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8] Use of undefined constant tooltip - assumed 'tooltip' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant trigger - assumed 'trigger' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant legend - assumed 'legend' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 129 行.
+NOTIC: [8] Use of undefined constant toolbox - assumed 'toolbox' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 131 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Use of undefined constant feature - assumed 'feature' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 133 行.
+NOTIC: [8] Use of undefined constant mark - assumed 'mark' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Use of undefined constant dataView - assumed 'dataView' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant readOnly - assumed 'readOnly' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Use of undefined constant magicType - assumed 'magicType' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant restore - assumed 'restore' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant saveAsImage - assumed 'saveAsImage' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant calculable - assumed 'calculable' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant xAxis - assumed 'xAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant boundaryGap - assumed 'boundaryGap' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 145 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 146 行.
+NOTIC: [8] Use of undefined constant yAxis - assumed 'yAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant axisLabel - assumed 'axisLabel' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant formatter - assumed 'formatter' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 153 行.
+NOTIC: [8] Use of undefined constant series - assumed 'series' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 157 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 159 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 163 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 165 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 168 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 169 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 175 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 176 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 177 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 178 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 179 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 180 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 186 行.
+
+[ 2016-04-18T14:22:40+08:00 ] ::1 /index.php?m=Admin&c=Index&a=barChart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [8] Use of undefined constant tooltip - assumed 'tooltip' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant trigger - assumed 'trigger' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant legend - assumed 'legend' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Use of undefined constant toolbox - assumed 'toolbox' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant feature - assumed 'feature' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant mark - assumed 'mark' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant dataView - assumed 'dataView' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant readOnly - assumed 'readOnly' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant magicType - assumed 'magicType' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant restore - assumed 'restore' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant saveAsImage - assumed 'saveAsImage' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant calculable - assumed 'calculable' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant xAxis - assumed 'xAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant yAxis - assumed 'yAxis' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant series - assumed 'series' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant markPoint - assumed 'markPoint' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant markLine - assumed 'markLine' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\IndexController.class.php 第 113 行.
+
+[ 2016-04-18T14:22:43+08:00 ] ::1 /index.php?m=Admin&c=Article&a=index&type=1&_=1460960562932
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::add() should be compatible with that of Think\Model::add() D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ec_article` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: search D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Controller\CommonController.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Controller\CommonController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: condition D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Controller\CommonController.class.php 第 55 行.
+NOTIC: [8] Undefined index: orderField D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `ec_article` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article` WHERE `isDel` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `ec_article` WHERE `isDel` = 0 ORDER BY uTime DESC LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [2048] Non-static method Admin\Model\ChannelModel::getChannelList() should not be called statically, assuming $this from incompatible context D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `ec_channel` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: limit D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 49 行.
+SQL: SELECT * FROM `ec_channel` ORDER BY oid ASC  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 62 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `ec_user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+SQL: SELECT `uid`,`name` FROM `ec_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 64 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+SQL: SHOW COLUMNS FROM `ec_article_reply` [ RunTime:0.0633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article_reply` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 62 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 64 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article_reply` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 62 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 64 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article_reply` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 62 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 64 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article_reply` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 62 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [2] Missing argument 2 for Common\Model\CommonModel::getUserFullNameByUid(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ArticleModel.class.php on line 64 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: modelType D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Model\BaseModel.class.php 第 188 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ec_article_reply` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: search D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Common\Controller\CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined index: page D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Controller\ArticleController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 2 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 37 行.
+NOTIC: [8] Undefined variable: total D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 55 行.
+NOTIC: [8] Undefined variable: total D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\f7a4145c49882bc20989508234541a17.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-04-18T14:22:43+08:00 ] ::1 /index.php?m=Admin&c=Channel&a=index&_=1460960563798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `ec_channel` [ RunTime:0.0108s ]
+NOTIC: [2] Missing argument 3 for Com\Category::__construct(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ChannelModel.class.php on line 83 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Com\Category.class.php 第 33 行.
+NOTIC: [2] Missing argument 4 for Com\Category::__construct(), called in D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Admin\Model\ChannelModel.class.php on line 83 and defined D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Com\Category.class.php 第 33 行.
+NOTIC: [8] Undefined variable: connection D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\ThinkPHP\Library\Com\Category.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `ec_channel` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ec_channel` ORDER BY oid asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 2 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: Think D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 82 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 83 行.
+NOTIC: [8] Use of undefined constant product - assumed 'product' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 84 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 85 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 86 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 90 行.
+NOTIC: [8] Undefined variable: total D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 110 行.
+NOTIC: [8] Undefined variable: total D:\Wamp\phpStudy\WWW\DigitalScene_ThinkPHP\App\Runtime\Cache\Admin\32f35546ccb40565da97692ddffe0907.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+

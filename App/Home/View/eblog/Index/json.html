@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <include file="Common:intoHead" />
+    <style type="text/css">  
+        .loading{  
+            width:160px;
+            height:56px;
+            position: absolute;
+            bottom:300px;
+            left:50%;
+            line-height:56px;
+            color:#fff;
+            padding-left:60px;
+            font-size:15px;
+            background: #000 url(/Public/Img/Common/loading.gif) no-repeat 10px 50%;
+            opacity: 0.7;
+            z-index:9999;
+            -moz-border-radius:20px;
+            -webkit-border-radius:20px;
+            border-radius:20px;
+            filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+        }
+    </style>
+    <script src="__PUBLIC__/Js/endlesspage.js"></script>
+    <script type="text/javascript">
+        dataUrl = "/Home/Index/index2";
+        //生成数据html,append到div中
+        function insertDiv(jsonData) {
+            var $mainDiv = $(".articleList");
+            var html = '';
+            for (var i = 0; i < jsonData.length; i++) {
+                html += '<div class="panel panel-success">';
+                html += '<div class="panel-heading"><h4 class="panel-title"><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-bar-chart-o fa-fw">' + jsonData[i].visitNums + '</i></button> <a href="/Article/detail/id/' + jsonData[i].id + '">' + jsonData[i].title + '</a></h4></div>';
+                html += '<div class="panel-body"><p>' + jsonData[i].summary + '</p></div>';
+                html += '<div class="panel-footer"> <em class = "pull-right"> ' + jsonData[i].channelName + ' </em><em>最后更新： ' + date('Y-m-d H:i:s', jsonData[i].uTime) + ' </em></div>';
+                html += '</div>';
+            }
+            $mainDiv.append(html);
+        }
+    </script>
+    <title>{$channelDetail.name}<?php if($channelDetail['name']){echo "-";}?>{:C('siteName')}</title>
+</head>
+
+<body>
+    <include file="Common:header" />
+
+    <div class="container " style="margin-top:80px;">
+
+        <div class="row">
+            <div class="col-md-8">
+                <!--div class="alert alert-danger alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                {$channelDetail.name}
+            </div-->
+
+                <volist name="articleList2" id="vo">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-bar-chart-o fa-fw">{$vo.visitNums}</i>
+                                </button>
+                                <a href="{:U('Article/detail','id='.$vo[id])}">{$vo.title}</a>
+                            </h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>{$vo.summary}</p>
+                        </div>
+                        <div class="panel-footer">
+                            <em class="pull-right">{$vo.channelName}</em>
+                            <em>最后更新：{$vo.uTime|timeToDate}</em>
+                        </div>
+                    </div>
+                </volist>
+                <!--div class="pagination">{$page}</div-->
+                <div class="articleList"></div>
+                <div>
+                    <div class="loading">加载中...</div>
+                    <a role="button" href="javascript:void(0);" id="btn_Page" class="btn btn-info btn-block">显示更多...</a>
+                </div>
+                <p></p>
+            </div>
+
+
+            <div class="col-md-4 col-sm-12">
+
+                <form class="form-group" action="/">
+                    <div class="form-group input-group">
+                        <input type="text" name="kw" class="form-control" placeholder="请输入标题/内容关键词" value="{$_GET['kw']}">
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn btn-default submit"><i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+
+                <?php if(is_array($smallChannelList)){ ?>
+                <ul class="list-unstyled">
+                    <volist name="smallChannelList" id="data">
+                        <li style="margin: 0 0 5px 0;"><a role="button" class="btn btn-lg btn-info btn-block" href="{$data.url}">{$data.name}</a>
+                        </li>
+                    </volist>
+                </ul>
+                <?php } ?>
+
+                <div class="panel panel-red">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">热门文章</h4>
+                    </div>
+                    <div class="list-group">
+                        <volist name="randList" id="randVo">
+                            <a href="{:U('Article/detail','id='.$randVo[id])}" class="list-group-item">{$randVo.title}</a>
+                        </volist>
+                    </div>
+                </div>
+
+                <div class="panel panel-green">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">最新评论</h4>
+                    </div>
+                    <div class="list-group">
+                        <!-- UYAN NEW COMMENT BEGIN -->
+                        <div id="uyan_newcmt_unit"></div>
+                        <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1867659"></script>
+                        <!-- 如果已经过加载此行JS，即可不用重复加载 -->
+                        <!-- UYAN NEW COMMENT END -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <include file="Common:footer" />
+
+</body>
+
+</html>

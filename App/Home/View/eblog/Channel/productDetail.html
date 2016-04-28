@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name=keywords content="{$articleDetail.keywords}"></meta>
+        <meta name=description content="{$articleDetail.description}"></meta>
+        <include file="Common:intoHead" />
+        <title>{$articleDetail.title} - {:C('siteName')}</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <include file="Common:header" />
+
+            <div class="small-pic"><img src="__TMPL__Public/Img/smallpic.png" /></div>
+            <div class="main clearfix">
+
+                <div class="content">
+                    <div class="position"><span>当前位置：</span><a href="{$siteConfig.WEB_ROOT}">首页</a> &gt; 新闻详情</div>
+
+                    <div class="content-bor">
+                        <div class="article">
+                            <h1 class="article-tit">{$articleDetail.title}</h1>
+                            <div class="article-cnt">{$articleDetail.content}</div>
+                            <div class=""></div>
+                        </div><a title="返回顶部" class="top" href="#header"></a>
+                    </div>
+                </div>
+
+                <include file="Common:leftMenu" />
+
+            </div>
+            <include file="Common:footer" />
+        </div>
+
+    </body>
+</html>

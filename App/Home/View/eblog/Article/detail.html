@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+    <include file="Common:intoHead"/>
+    <link rel="Stylesheet" type="text/css" href="{:C('STATIC_PATH')}Plugins/kindeditor/plugins/code/prettify.css" />
+    <script type="text/javascript"  src="{:C('STATIC_PATH')}Plugins/kindeditor/plugins/code/prettify.js"></script>
+    <title>{$articleDetail.title}</title>
+</head>
+
+<body>
+<include file="Common:header" />
+
+<div class="container " style="margin-top:80px;">
+
+    <div class="row">
+        <div class="col-md-8">
+
+            <div class="alert alert-success alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                {:W('Channel/linkMenu')} <span class="pull-right">{$articleDetail.cacheInfo}</span>
+            </div>
+            
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <span class="badge pull-right">{$articleDetail.visitNums}</span>
+                        <i class="fa fa-file-text"></i> {$articleDetail.title}
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <p>{$articleDetail.content}</p>
+                </div>
+                <div class="panel-footer">
+                    <em class="pull-right">{$articleDetail.cid|getChannelNameByCid}</em>
+                    <em>最后更新：{$articleDetail.uTime|timeFormat}</em>
+                </div>
+            </div>
+            <p></p>
+            <div>
+                {$front}
+                <div class="clearfix"></div>
+                <p></p>
+                {$after}
+            </div>
+            <p></p>
+            <div class="clearfix"></div>
+            <p></p>
+
+            <!-- UY BEGIN -->
+            <div id="uyan_frame"></div>
+            <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1867659"></script>
+            <!-- UY END -->
+
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+
+            <form class="form-group" action="{:U('Article/search')}">
+                <div class="form-group input-group">
+                    <input type="text" name="keyWords" class="form-control" placeholder="请输入标题/内容关键词" value="{$_GET['kw']}">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default submit"><i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+
+            <?php if(is_array($smallChannelList)){ ?>
+            <ul class="list-unstyled">
+                <volist name="smallChannelList" id="data">
+                    <li style="margin: 0 0 5px 0;"><a role="button" class="btn btn-lg btn-info btn-block" href="{$data.url}">{$data.name}</a></li>
+                </volist>
+            </ul>
+            <?php } ?>
+
+            <div class="panel panel-red">
+                <div class="panel-heading"><h4 class="panel-title"><i class="fa fa-fire"></i> 热门文章</h4></div>
+                <div class="list-group">
+                    <list model="Article" fields="id,cid,title" limit="10" order="visitNums DESC">
+                        <a href="/article-{$cid}-{$id}.html" class="list-group-item">{$title}</a>
+                    </list>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<include file="Common:footer" />
+<script>
+    jQuery(document).ready(function(){
+        jQuery(window).load(function(){
+            prettyPrint();
+        });
+    })
+</script>
+
+</body>
+</html>
